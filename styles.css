@@ -1,0 +1,110 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.text{
+    color:black;
+    font-size: 17px;
+    font-weight: 700;
+    text-wrap: nowrap;
+}
+.text:hover {
+    color:#0040d4;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap:48px;
+    padding-top: 25px;
+    padding-left: 28px;
+    position: fixed;
+    top:0px;
+}
+.text2{
+    color:#0040d4;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 25px;
+    position: fixed;
+    top:0px;
+    right:200px;
+}
+.text2:hover{
+    cursor: pointer;
+}
+.text3{
+    color:white;
+    background-color:#0040d4;
+    border-radius: 5px;
+    font-size: 17x;
+    position: fixed;
+    top:0px;
+    right:30px;
+    width:124px;
+    height:37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.text3:hover{
+    background-color: white;
+    cursor: pointer;
+    color:gray;
+}
+.search{
+    padding-top: 25px;
+    position: fixed;
+    top:0;
+    right:170px;
+}
+.search:hover{
+    cursor: pointer;
+}
+.img:hover{
+    cursor: pointer;
+}
+.lemonade{
+    color:black;
+    background-color: #fbda04;
+    width:85px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px
+}
+.box{
+    display: flex; 
+    margin-top: 80px;
+    margin-left:203px;
+}
+.text4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+.img1{
+    height:450px;
+    width: 700px;
+    background-image: url("image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 203px;
+    margin-top: 30px;
+}
+.uls{
+    color:#0040d4;
+    font-size: 10px;
+    margin:203px
+}
